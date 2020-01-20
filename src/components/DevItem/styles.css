@@ -9,6 +9,12 @@ main ul {
   list-style: none;
 }
 
+@media (max-width: 650px) {
+  main ul {
+    grid-template-columns: 1fr;
+  }
+}
+
 li.devItem {
   background-color: #fff;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
@@ -20,7 +26,6 @@ li.devItem header {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 li.devItem header img {
